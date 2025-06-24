@@ -19,11 +19,8 @@ clock = pygame.time.Clock()
 
 game = Game()
 
-game_grid.grid[0][0] = 1
-game_grid.grid[3][5] = 4
-game_grid.grid[17][18] = 7
-
-game_grid.print_grid()
+GAME_UPDATE = pygame.USEREVENT
+pygame.time.set_timer(GAME_UPDATE, 200)
 
 while True:
     for event in pygame. event.get():
