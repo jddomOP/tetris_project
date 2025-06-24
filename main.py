@@ -59,5 +59,5 @@ while True:
 	pygame.draw.rect(screen, Colors.light_blue, next_rect, 0, 10)
 	game.draw(screen)
 
-    pygame.display.update()
-    clock.tick(60)
+	pygame.display.update()
+	clock.tick(60)
