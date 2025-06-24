@@ -3,7 +3,6 @@ from game import Game
 from colors import Colors
 
 pygame.init()
-
 title_font = pygame.font.Font(None, 40)
 score_surface = title_font.render("Score", True, Colors.white)
 next_surface = title_font.render("Next", True, Colors.white)
