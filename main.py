@@ -17,7 +17,7 @@ pygame.display.set_caption("Python Tetris")
 
 clock = pygame.time.Clock()
 
-game_grid = Grid()
+game = Game()
 
 game_grid.grid[0][0] = 1
 game_grid.grid[3][5] = 4
