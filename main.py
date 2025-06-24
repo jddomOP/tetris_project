@@ -2,8 +2,12 @@ import pygame,sys
 from game import Game
 from colors import Colors
 
-pygame. init()
-dark_blue = (44, 44, 127)
+pygame.init()
+
+title_font = pygame.font.Font(None, 40)
+score_surface = title_font.render("Score", True, Colors.white)
+next_surface = title_font.render("Next", True, Colors.white)
+game_over_surface = title_font.render("GAME OVER", True, Colors.white)
 
 screen = pygame.display.set_mode((300, 600))
 pygame. display.set_caption("Python Tetris")
