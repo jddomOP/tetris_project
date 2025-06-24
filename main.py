@@ -9,8 +9,11 @@ score_surface = title_font.render("Score", True, Colors.white)
 next_surface = title_font.render("Next", True, Colors.white)
 game_over_surface = title_font.render("GAME OVER", True, Colors.white)
 
-screen = pygame.display.set_mode((300, 600))
-pygame. display.set_caption("Python Tetris")
+score_rect = pygame.Rect(320, 55, 170, 60)
+next_rect = pygame.Rect(320, 215, 170, 180)
+
+screen = pygame.display.set_mode((500, 620))
+pygame.display.set_caption("Python Tetris")
 
 clock = pygame. time. Clock()
 
