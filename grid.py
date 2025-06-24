@@ -9,7 +9,7 @@ class Grid:
         self.colors = self.get_cell_colors()
 
     def print_grid(self):
-	    for row in range(self.num_rows):
-			for column in range(self.num_cols):
-				print(self.grid[row][column], end = " ")
-			print()
+        for row in range(self.num_rows):
+            for column in range(self.num_cols):
+                print(self.grid[row][column], end = " ")
+            print()
