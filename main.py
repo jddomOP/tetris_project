@@ -1,4 +1,6 @@
-import pygame, sys
+import pygame,sys
+from game import Game
+from colors import Colors
 
 pygame. init()
 dark_blue = (44, 44, 127)
