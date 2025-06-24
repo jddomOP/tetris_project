@@ -60,3 +60,5 @@ while True:
 
 	pygame.display.update()
 	clock.tick(60)
+
+#installed the sound that was given in the video
